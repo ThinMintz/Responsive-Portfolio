@@ -261,3 +261,22 @@ aside hr {
 .icons {
 	margin: 17px;
 }
+
+
+@media screen and (max-width: 980px) {
+.container {
+	width: 960px;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+	width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+	.container {
+	width: 100%;
+}
+	header {
+		position: static;
+}
